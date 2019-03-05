@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:rowCount="6"
+    android:columnCount="2">
+
+    <TextView android:text="Nombre"/>
+    <EditText android:ems="12"
+        android:id="@+id/nombre"/>
+    <TextView android:text="Domicilio" />
+    <EditText android:ems="12"
+        android:id="@+id/domicilio"/>
+    <TextView android:text="Edad"/>
+    <EditText android:ems="12"
+        android:id="@+id/edad"/>
+    <TextView android:text="Sueldo"/>
+    <EditText android:ems="12"
+        android:id="@+id/sueldo"/>
+    <Button android:text="Guardar"
+        android:onClick="guardarEnArchivo"/>
+    <Button android:text="Abrir"
+        android:onClick="abrirArchivo"/>
+    <Button android:text="Limpiar"
+        android:id="@+id/limpiar" />
+
+
+
+</GridLayout>
